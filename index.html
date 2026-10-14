@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GeoRoots – Privacy Policy</title>
-<meta name="description" content="Privacy Policy for GeoRoots, the Field Infrastructure Mapping app by Amrita Vishwa Vidyapeetham Live-in-Labs.">
+<meta name="description" content="Complete Privacy Policy for GeoRoots, the Field Infrastructure Mapping app by Amrita Vishwa Vidyapeetham Live-in-Labs.">
 <style>
   :root {
     --bg:#fbfcfa; --panel:#ffffff; --fg:#17231d; --muted:#5a6a61; --line:#dbe4de;
@@ -25,46 +25,47 @@
   a { color:var(--accent); }
   header.hero { background:var(--accent); color:#fff; padding:44px 20px 36px; }
   @media (prefers-color-scheme: dark) { header.hero { background:#0f3b2a; } }
-  .wrap { max-width:1080px; margin:0 auto; }
+  .wrap { max-width:1120px; margin:0 auto; }
   header.hero h1 { margin:0 0 6px; font-size:2.1rem; line-height:1.2; letter-spacing:-.01em; }
-  header.hero p { margin:2px 0; opacity:.92; max-width:62ch; }
+  header.hero p { margin:2px 0; opacity:.92; max-width:66ch; }
   .meta { font-size:.9rem; opacity:.85; margin-top:14px; }
 
-  .layout { display:grid; grid-template-columns:240px minmax(0,1fr); gap:40px;
-            max-width:1080px; margin:0 auto; padding:32px 20px 80px; }
-  nav.toc { position:sticky; top:20px; align-self:start; font-size:.92rem;
+  .layout { display:grid; grid-template-columns:250px minmax(0,1fr); gap:40px;
+            max-width:1120px; margin:0 auto; padding:32px 20px 80px; }
+  nav.toc { position:sticky; top:20px; align-self:start; font-size:.9rem; max-height:calc(100vh - 40px); overflow-y:auto;
             border-left:2px solid var(--line); padding-left:14px; }
   nav.toc strong { display:block; margin-bottom:8px; color:var(--muted); font-weight:600; }
-  nav.toc a { display:block; padding:4px 0; color:var(--fg); text-decoration:none; }
+  nav.toc a { display:block; padding:3px 0; color:var(--fg); text-decoration:none; }
   nav.toc a:hover { color:var(--accent); }
-  @media (max-width:860px) {
+  @media (max-width:880px) {
     .layout { grid-template-columns:1fr; gap:10px; }
-    nav.toc { position:static; border-left:0; padding:0 0 10px; border-bottom:1px solid var(--line); }
+    nav.toc { position:static; max-height:none; border-left:0; padding:0 0 10px; border-bottom:1px solid var(--line); }
   }
 
   main { min-width:0; }
-  section { margin-bottom:38px; }
+  section { margin-bottom:40px; }
   h2 { font-size:1.35rem; margin:0 0 .6em; padding-top:.2em; line-height:1.3; }
   h3 { font-size:1.03rem; margin:1.5em 0 .35em; }
-  p, li { max-width:72ch; }
+  p, li { max-width:74ch; }
   li { margin:.25em 0; }
-  ul { padding-left:1.2em; }
+  ul, ol { padding-left:1.2em; }
 
   .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin:0 0 34px; }
   .summary div { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; font-size:.93rem; }
   .summary b { display:block; margin-bottom:4px; color:var(--accent); }
 
   .note { background:var(--accent-soft); border:1px solid var(--line); border-left:4px solid var(--accent);
-          border-radius:8px; padding:12px 16px; margin:1.1em 0; max-width:72ch; }
+          border-radius:8px; padding:12px 16px; margin:1.1em 0; max-width:74ch; }
   .note.warn { background:var(--warn-soft); border-color:var(--warn-line); border-left-color:#d4a017; }
 
   .tablewrap { overflow-x:auto; margin:1em 0; border:1px solid var(--line); border-radius:10px; background:var(--panel); }
-  table { border-collapse:collapse; width:100%; font-size:.9rem; min-width:560px; }
-  th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+  table { border-collapse:collapse; width:100%; font-size:.88rem; min-width:600px; }
+  th, td { text-align:left; vertical-align:top; padding:9px 12px; border-bottom:1px solid var(--line); }
   th { background:var(--accent-soft); font-weight:600; }
   tr:last-child td { border-bottom:0; }
   .y { color:var(--yes); font-weight:600; }
   .n { color:var(--no); font-weight:600; }
+  code { font:.86em ui-monospace,Menlo,Consolas,monospace; background:var(--accent-soft); padding:1px 5px; border-radius:4px; }
 
   footer { border-top:1px solid var(--line); padding:20px; text-align:center; color:var(--muted); font-size:.88rem; }
   @media print {
@@ -80,7 +81,7 @@
   <div class="wrap">
     <h1>GeoRoots Privacy Policy</h1>
     <p>Field Infrastructure Mapping · Amrita Vishwa Vidyapeetham · Live-in-Labs®</p>
-    <p class="meta">Effective: 14 October 2026 &nbsp;·&nbsp; Last updated: 14 October 2026</p>
+    <p class="meta">Effective: 14 October 2026 &nbsp;·&nbsp; Last updated: 14 October 2026 &nbsp;·&nbsp; Policy version 3.0</p>
   </div>
 </header>
 
@@ -89,29 +90,34 @@
 <nav class="toc" aria-label="Contents">
   <strong>Contents</strong>
   <a href="#about">1. About GeoRoots</a>
-  <a href="#collect">2. Information we collect</a>
-  <a href="#table">3. Data at a glance</a>
-  <a href="#use">4. How we use it</a>
-  <a href="#permissions">5. Device permissions</a>
-  <a href="#aadhaar">6. Identity verification</a>
-  <a href="#sharing">7. Who can see your data</a>
-  <a href="#thirdparty">8. Third-party services</a>
-  <a href="#sms">9. SMS and email</a>
-  <a href="#storage">10. Storage on your device</a>
-  <a href="#retention">11. Retention and deletion</a>
-  <a href="#security">12. Security</a>
-  <a href="#transfer">13. Where data is stored</a>
-  <a href="#rights">14. Your rights</a>
-  <a href="#consent">15. Consent</a>
-  <a href="#children">16. Children</a>
-  <a href="#changes">17. Changes</a>
-  <a href="#contact">18. Contact</a>
+  <a href="#roles">2. User types and roles</a>
+  <a href="#collect">3. Information we collect</a>
+  <a href="#table">4. Data at a glance</a>
+  <a href="#features">5. Feature-by-feature data use</a>
+  <a href="#use">6. How we use information</a>
+  <a href="#permissions">7. Device permissions</a>
+  <a href="#aadhaar">8. Identity verification</a>
+  <a href="#location">9. Location in detail</a>
+  <a href="#sms">10. SMS and email</a>
+  <a href="#sharing">11. Who can see your data</a>
+  <a href="#thirdparty">12. Third-party services</a>
+  <a href="#storage">13. Storage on your device</a>
+  <a href="#retention">14. Retention and deletion</a>
+  <a href="#security">15. Security</a>
+  <a href="#transfer">16. Where data is stored</a>
+  <a href="#rights">17. Your rights</a>
+  <a href="#consent">18. Consent</a>
+  <a href="#children">19. Children</a>
+  <a href="#disclaimer">20. Hazard information</a>
+  <a href="#playsafety">21. Google Play summary</a>
+  <a href="#changes">22. Changes</a>
+  <a href="#contact">23. Contact</a>
 </nav>
 
 <main>
 
 <div class="summary">
-  <div><b>What it is</b>A mapping app for field teams to log water points, roads, drainage, hazards and shelters.</div>
+  <div><b>What it is</b>A mapping app for field teams to log water points, roads, drainage, hazards, shelters and more.</div>
   <div><b>What we collect</b>Account details, location, photos, notes, and identity documents for verification.</div>
   <div><b>What we never do</b>Sell your data, show ads, or read your SMS, call logs or contacts.</div>
   <div><b>Your control</b>Location sharing is optional and off by default. You can request deletion any time.</div>
@@ -119,198 +125,339 @@
 
 <section id="about">
 <h2>1. About GeoRoots</h2>
-<p>GeoRoots ("the App", "we", "us", "our") is a field-mapping application developed by students of Amrita Vishwa Vidyapeetham, Coimbatore, under faculty guidance, and grew out of the Amrita Live-in-Labs® programme. It lets teams record real infrastructure on the ground (water taps, road damage, drainage, streetlights, shelters, hazards and similar points) with GPS coordinates, notes and photos, and see them on a shared map.</p>
-<p>This policy explains what personal information the App handles, why, who can see it, how long we keep it, and what choices you have. It applies to the GeoRoots Android app and any web version. It is written to meet the Google Play User Data policy and India's Digital Personal Data Protection Act, 2023.</p>
+<p>GeoRoots ("the App", "we", "us", "our") is a field-mapping application developed by students of Amrita Vishwa Vidyapeetham, Coimbatore, under faculty guidance. It grew out of the Amrita Live-in-Labs® programme. It lets teams record real infrastructure on the ground (water taps, road damage, open drainage, streetlights, civic hazards, public assets, transformers, EV points, hospitals, ration shops, shelters and risk zones) with GPS coordinates, notes and photos, and see them on a shared map.</p>
+<p>This policy explains every kind of personal information the App handles, why, who can see it, how long we keep it, which outside services it touches, and what choices you have. It applies to the GeoRoots Android app and any web version. It is written to follow the Google Play User Data policy and India's Digital Personal Data Protection Act, 2023.</p>
+</section>
+
+<section id="roles">
+<h2>2. User types and roles</h2>
+<div class="tablewrap">
+<table>
+<tr><th>Type</th><th>Who</th><th>What they can do</th></tr>
+<tr><td>Amrita user</td><td>Current Amrita student or faculty member (institutional email and signed consent form required)</td><td>Log points to the Amrita dataset, see Amrita points, request exports of their own group's points</td></tr>
+<tr><td>General user</td><td>Any other approved field user</td><td>Log points to the public dataset, see public points, request exports of their own group's points</td></tr>
+<tr><td>Administrator</td><td>GeoRoots team and faculty</td><td>Approve or reject registrations, view identity documents, view and delete any point, approve exports, manage users, message other administrators, view shared locations, manage categories</td></tr>
+</table>
+</div>
+<p>Amrita points and public points are stored in two separate databases. Amrita users only ever load Amrita points. General users only ever load public points. Only administrators can see both.</p>
 </section>
 
 <section id="collect">
-<h2>2. Information we collect</h2>
+<h2>3. Information we collect</h2>
 
-<h3>2.1 Information you provide when you register</h3>
+<h3>3.1 When you register</h3>
 <ul>
-  <li>User ID and password</li>
-  <li>Full name, as printed on your Aadhaar card</li>
-  <li>Phone number (with country code)</li>
-  <li>An image of the QR-code side of your Aadhaar card (you never need to type your Aadhaar number)</li>
-  <li>A live photo of yourself taken with the camera at registration. Photos from your gallery are not accepted.</li>
-  <li>If you are an Amrita student or faculty member: your institutional email address, whether you are a student or faculty, and a signed consent form</li>
+  <li><strong>Account details:</strong> user ID, phone number (with country code), and a password. Your password is never stored as typed. It is converted into a salted PBKDF2-SHA256 hash on your device before it is sent.</li>
+  <li><strong>Full name</strong> exactly as printed on your Aadhaar card.</li>
+  <li><strong>Image of the QR side of your Aadhaar card</strong> (compressed JPEG). We do not ask for, and do not store, your Aadhaar number. An older field for the last four digits is no longer collected and is left empty.</li>
+  <li><strong>A live photo of yourself</strong> taken with your camera at registration. Photos from your gallery are not accepted.</li>
+  <li><strong>Role selection:</strong> whether you are registering as a student or faculty member, if you tick the Amrita option.</li>
+  <li><strong>Amrita users only:</strong> your institutional email address (for example an Outlook address), your affiliation, a <strong>signature you draw on screen</strong> (stored as an image), the version of the consent form you signed, and the date and time you signed it.</li>
+  <li><strong>Registration status</strong> and the time of registration and of approval.</li>
 </ul>
 
-<h3>2.2 Survey data you create</h3>
+<h3>3.2 When you sign in and use the App</h3>
 <ul>
-  <li>Infrastructure points: category, GPS coordinates, altitude, GNSS quality details (fix type, HDOP, satellite count, estimated accuracy), date and time, notes and attached photos</li>
-  <li>Your user ID and user group (Amrita or general public) attached to each point</li>
-  <li>Messages you exchange with administrators in the in-app chat</li>
+  <li><strong>Remember-this-device record:</strong> a random token stored on your device, and a one-way SHA-256 hash of it stored on our server with its creation time, last-seen time and an expiry 90 days after creation. This keeps you signed in so you are not asked for your password each time.</li>
+  <li><strong>Your last used user ID</strong>, saved on your device to pre-fill the sign-in box.</li>
+  <li><strong>Preferences:</strong> theme (dark or light), outdoor high-contrast setting, and which map layers and modes you switch on.</li>
 </ul>
 
-<h3>2.3 Location data</h3>
+<h3>3.3 Survey points you log</h3>
 <ul>
-  <li><strong>During use:</strong> your device location is used to centre the map, calculate routes, find nearby points and stamp coordinates on points you log.</li>
-  <li><strong>Optional location sharing:</strong> if you switch on "Location Sharing", your live location and location history are sent to administrators so field work can be coordinated. It is <strong>off by default</strong>, requires your explicit action, and can be turned off at any time.</li>
-  <li>The App does not track your location when it is closed.</li>
+  <li>Category (such as water tap, road damage, drainage, streetlight, hazard, public asset, transformer, EV point, hospital, ration shop, shelter, risk zone) and any custom category label</li>
+  <li>Latitude, longitude, ellipsoidal height and the GNSS quality stamp: fix type, HDOP, number of satellites, estimated accuracy, correction station name and age</li>
+  <li>Date and time</li>
+  <li>Your free-text notes</li>
+  <li>Photos you attach, optionally stamped with the category logo and name</li>
+  <li><strong>Your phone number</strong> and <strong>your user ID</strong>, saved with the point. The phone number is kept for records and for sending you the confirmation SMS. The user ID records ownership and controls who can delete the point.</li>
 </ul>
 
-<h3>2.4 Technical information</h3>
+<h3>3.4 Location</h3>
+<p>Described fully in <a href="#location">section 9</a>. In brief: your position while the App is open, and, only if you turn it on, a shared live location and trail for administrators.</p>
+
+<h3>3.5 Messages</h3>
+<p>Messages sent in the in-app chat between administrators, with the sender, the conversation, the time and whether the message has been read.</p>
+
+<h3>3.6 Administrator activity</h3>
+<p>For administrators only, we keep an audit log of administrative actions: which administrator, what action, which user it concerned and when. It exists to keep the system accountable.</p>
+
+<h3>3.7 Exports</h3>
+<p>Export requests from users (who asked, when, and for which approved time window) and the administrator's approval or rejection.</p>
+
+<h3>3.8 Data from your actions elsewhere in the App</h3>
 <ul>
-  <li>Basic connection and app information needed to keep the App working and synced</li>
-  <li>Preferences saved on your device, such as theme and sign-in session (see section 10)</li>
+  <li><strong>Categories:</strong> when an administrator renames, recolours or removes a category, the change is stored with who made it and when.</li>
+  <li><strong>Admin contact preferences:</strong> a faculty member's choice of whether GeoRoots sends SMS alerts to their phone.</li>
+  <li><strong>GNSS inputs:</strong> if you use NMEA / GNSS logger mode, the NMEA sentences you paste are processed on your device to compute a position.</li>
 </ul>
 
-<div class="note"><strong>We do not collect:</strong> your SMS messages, call history, contacts, microphone recordings, files from your gallery, or financial information. We do not use advertising identifiers.</div>
+<div class="note"><strong>We do not collect:</strong> your SMS messages, call history, contacts, microphone recordings, files from your gallery, your Aadhaar number, financial information, or advertising identifiers. We do not collect your location while the App is closed.</div>
 </section>
 
 <section id="table">
-<h2>3. Data at a glance</h2>
+<h2>4. Data at a glance</h2>
 <div class="tablewrap">
 <table>
 <tr><th>Data</th><th>Required?</th><th>Seen by</th><th>Sold?</th><th>Why we need it</th></tr>
 <tr><td>Name, user ID, phone</td><td>Yes</td><td>Administrators</td><td class="n">No</td><td>Account, approval, notifications</td></tr>
-<tr><td>Password</td><td>Yes</td><td>Not visible to anyone</td><td class="n">No</td><td>Sign in</td></tr>
-<tr><td>Aadhaar QR image</td><td>Yes (registration)</td><td>Administrators only</td><td class="n">No</td><td>Identity verification</td></tr>
-<tr><td>Live registration photo</td><td>Yes (registration)</td><td>Administrators only</td><td class="n">No</td><td>Identity verification</td></tr>
-<tr><td>Institutional email, consent form</td><td>Amrita users only</td><td>Administrators only</td><td class="n">No</td><td>Confirm student/faculty status</td></tr>
-<tr><td>Location while using the app</td><td>For logging points</td><td>Stamped on points</td><td class="n">No</td><td>Maps, routing, point coordinates</td></tr>
-<tr><td>Live location and history</td><td class="y">Optional</td><td>Administrators</td><td class="n">No</td><td>Field coordination</td></tr>
-<tr><td>Point photos and notes</td><td>For each point</td><td>Users of your group, administrators</td><td class="n">No</td><td>Shared infrastructure dataset</td></tr>
-<tr><td>Chat messages</td><td>Optional</td><td>Sender, recipient administrator</td><td class="n">No</td><td>Support and coordination</td></tr>
+<tr><td>Password (salted hash)</td><td>Yes</td><td>Nobody can read it</td><td class="n">No</td><td>Sign in</td></tr>
+<tr><td>Aadhaar QR card image and name</td><td>Yes (registration)</td><td>Administrators</td><td class="n">No</td><td>Identity verification</td></tr>
+<tr><td>Live registration photo</td><td>Yes (registration)</td><td>Administrators</td><td class="n">No</td><td>Identity verification</td></tr>
+<tr><td>Institutional email, affiliation, drawn signature</td><td>Amrita users only</td><td>Administrators</td><td class="n">No</td><td>Confirm status, record consent</td></tr>
+<tr><td>Device token hash and expiry</td><td>If you stay signed in</td><td>Server only</td><td class="n">No</td><td>Keep you signed in for 90 days</td></tr>
+<tr><td>Location while using the App</td><td>For logging points and maps</td><td>Stamped on your points</td><td class="n">No</td><td>Maps, routing, point coordinates</td></tr>
+<tr><td>Shared live location and trail</td><td class="y">Optional</td><td>Administrators</td><td class="n">No</td><td>Field coordination</td></tr>
+<tr><td>Point details, notes, photos</td><td>For each point</td><td>Users of your group, administrators</td><td class="n">No</td><td>Shared infrastructure dataset</td></tr>
+<tr><td>Phone number saved with a point</td><td>For each point</td><td>Administrators; point owner</td><td class="n">No</td><td>Records, confirmation SMS</td></tr>
+<tr><td>Chat messages</td><td>Optional</td><td>Participating administrators</td><td class="n">No</td><td>Coordination</td></tr>
+<tr><td>Administrator audit log</td><td>Administrators</td><td>Administrators</td><td class="n">No</td><td>Accountability and security</td></tr>
+<tr><td>Outgoing SMS (number and text)</td><td>When a notification is triggered</td><td>Server, relay device</td><td class="n">No</td><td>Deliver notifications</td></tr>
+</table>
+</div>
+</section>
+
+<section id="features">
+<h2>5. Feature-by-feature data use</h2>
+<div class="tablewrap">
+<table>
+<tr><th>Feature</th><th>What happens to your data</th></tr>
+<tr><td><strong>Map and layers</strong> (satellite, hybrid, dark, standard, administrative boundaries, CORS reference nodes)</td><td>Your device requests map images from the tile providers listed in section 12. The providers see your IP address and the area you view.</td></tr>
+<tr><td><strong>My position and routing</strong></td><td>Your device location is used locally to place a marker. When you request a route, the start and end coordinates are sent to the OSRM routing service.</td></tr>
+<tr><td><strong>Logging an infrastructure point</strong></td><td>Coordinates, GNSS details, notes, photos, your phone number and user ID are saved to the shared database for your group. A confirmation SMS is queued to your number.</td></tr>
+<tr><td><strong>Refine Fix</strong></td><td>Averages several readings from your phone's GPS on your device. Nothing extra is sent until you save a point.</td></tr>
+<tr><td><strong>Simulated / Field Demo mode</strong></td><td>Generates example positions on your device only. Nothing is collected.</td></tr>
+<tr><td><strong>Offline saving</strong></td><td>If you have no signal, points are held in your device's local database and uploaded automatically when you are back online.</td></tr>
+<tr><td><strong>Offline map</strong></td><td>Map tiles you download are stored on your device, with small metadata (region and date) saved locally.</td></tr>
+<tr><td><strong>Weather &amp; Hazards</strong></td><td>When you tap a spot or use the module, that location's coordinates are sent to Open-Meteo (weather, air quality, river flood and sea wave forecasts), the USGS earthquake service, and OpenStreetMap Nominatim (place name). These services see the coordinates and your IP address.</td></tr>
+<tr><td><strong>Hill Station, Disaster and Amrita Campus modes</strong></td><td>Computed on your device from points already in the shared database within a radius of your view or position. No additional personal data is sent.</td></tr>
+<tr><td><strong>Place search / reverse geocoding</strong></td><td>The text you type or the coordinates you pick are sent to Nominatim.</td></tr>
+<tr><td><strong>Chat</strong></td><td>Messages are stored in our database and delivered in real time to the other administrator.</td></tr>
+<tr><td><strong>Location Sharing</strong></td><td>See section 9.</td></tr>
+<tr><td><strong>Export Data</strong> (GeoJSON, CSV, copy to clipboard)</td><td>Files are created on your device. Non-administrators need an administrator's approval for a time window. Exported files are your responsibility once saved.</td></tr>
+<tr><td><strong>Administrator Console</strong></td><td>Administrators can view pending registrations with identity documents, manage and delete users, view and delete points, export a list of users and their email IDs, approve exports, and change their own credentials. Actions are logged.</td></tr>
+<tr><td><strong>Email and phone links</strong> (About, Credits)</td><td>Open your own email app (Gmail, Outlook) or phone dialer. We do not receive any data from this.</td></tr>
 </table>
 </div>
 </section>
 
 <section id="use">
-<h2>4. How we use your information</h2>
+<h2>6. How we use information</h2>
 <ul>
   <li>To create, verify and manage accounts, and to prevent fake or duplicate registrations</li>
-  <li>To provide the mapping, logging, routing and export features</li>
-  <li>To let administrators coordinate field teams, if you choose to share your location</li>
-  <li>To send account, approval and security notifications</li>
-  <li>To improve the accuracy and reliability of the App</li>
-  <li>For community, disaster-preparedness and academic research on civic infrastructure, using survey data and not identity documents</li>
-  <li>To comply with legal obligations and respond to valid legal requests</li>
+  <li>To keep you signed in on your trusted device</li>
+  <li>To provide mapping, positioning, routing, weather and hazard, logging and export features</li>
+  <li>To store and share survey points within the right group</li>
+  <li>To let administrators coordinate field teams, only if you share your location</li>
+  <li>To send account, approval and point-confirmation notifications</li>
+  <li>To keep administrators accountable through the audit log</li>
+  <li>To keep the service secure and fix faults</li>
+  <li>For community, disaster-preparedness and academic research using survey points, never identity documents</li>
+  <li>To comply with law and respond to valid legal requests</li>
 </ul>
-<p>We do not use your data for advertising, profiling, or sale, and we use it only for the purposes above. If we want to use it for a new purpose, we will ask for your consent first.</p>
+<p>We do not use your data for advertising, profiling, automated decisions or sale. If we want to use it for a new purpose, we will ask for your consent first.</p>
 </section>
 
 <section id="permissions">
-<h2>5. Device permissions</h2>
+<h2>7. Device permissions</h2>
 <div class="tablewrap">
 <table>
 <tr><th>Permission</th><th>Used for</th><th>When asked</th></tr>
-<tr><td>Location (precise and approximate)</td><td>Map position, routing, coordinates of logged points</td><td>When you first use a location feature</td></tr>
+<tr><td>Location (precise and approximate)</td><td>Map position, routing, coordinates of logged points, optional location sharing</td><td>When you first use a location feature</td></tr>
 <tr><td>Camera</td><td>Registration live photo and photos of infrastructure points</td><td>When you tap the camera option</td></tr>
-<tr><td>Notifications</td><td>Alerts and message notifications</td><td>On Android 13 and above, at first launch</td></tr>
+<tr><td>Notifications</td><td>Alerts and message notifications</td><td>On Android 13 and above</td></tr>
 <tr><td>Internet and network state</td><td>Syncing data and loading maps</td><td>Not prompted</td></tr>
-<tr><td>Storage (Android 9 and below)</td><td>Saving exported files to Downloads</td><td>Only on older Android versions</td></tr>
+<tr><td>Storage (Android 9 and below only)</td><td>Saving exported files to Downloads</td><td>Only on older Android versions</td></tr>
 </table>
 </div>
-<div class="note"><strong>No SMS or call permissions.</strong> GeoRoots does not request permission to read, receive or send SMS messages, to read call logs, or to read your phone state or contacts. Tapping a phone number or email address in the App simply opens your own dialer or email app.</div>
-<p>You can withdraw any permission in your device's Settings → Apps → GeoRoots → Permissions. Related features will stop working until you allow it again.</p>
+<div class="note"><strong>No SMS or call permissions.</strong> The GeoRoots app on your phone does not request or use permission to read, receive or send SMS, to read call logs, to read your phone state, or to read contacts.</div>
+<p>You can withdraw any permission in Settings → Apps → GeoRoots → Permissions. Related features will stop working until you allow it again.</p>
 </section>
 
 <section id="aadhaar">
-<h2>6. Identity verification (Aadhaar QR and live photo)</h2>
-<p>GeoRoots is used for real field surveys, so administrators approve every new account before it can be used. For this we ask for the following:</p>
+<h2>8. Identity verification (Aadhaar QR and live photo)</h2>
+<p>GeoRoots is used for real field surveys, so administrators approve every new account before it can be used. For this we collect your name as on your Aadhaar card, an image of the QR side of the card, and a live camera photo.</p>
 <ul>
-  <li>An image of the <strong>QR side</strong> of your Aadhaar card and your name as printed on it</li>
-  <li>A live camera photo of yourself</li>
+  <li>The information is used <strong>only</strong> to confirm that you are who you say you are.</li>
+  <li>It is shown only to authorised administrators on the approval screen. It is never shown to other users.</li>
+  <li>It is never used for marketing, research, or sharing with other organisations, except where the law requires.</li>
+  <li>We do not collect your Aadhaar number, and we do not use Aadhaar for authentication or e-KYC with UIDAI.</li>
+  <li>If you are rejected, we delete the documents within 30 days.</li>
+  <li>If you are approved, you can ask us to delete the documents at any time (section 14).</li>
 </ul>
-<p>This information is used <strong>only</strong> to confirm that you are who you say you are. It is viewable only by authorised GeoRoots administrators, is never shown to other users, is never used for marketing or research, and is not shared with third parties except where required by law. We do not ask you to type your Aadhaar number, and we do not use Aadhaar for authentication or e-KYC with UIDAI.</p>
-<p>Because Aadhaar information is sensitive, you can ask us to delete the image and photo once your account is approved, or at any time, by writing to the contact in section 18. If you do not want to provide these documents, please do not register.</p>
+<p>If you are not comfortable providing these documents, please do not register.</p>
 </section>
 
-<section id="sharing">
-<h2>7. Who can see your information</h2>
-<ul>
-  <li><strong>Administrators</strong> (the GeoRoots team and faculty) can see registration details, identity documents, all survey points, messages and any location you have chosen to share.</li>
-  <li><strong>Other users</strong> see survey points according to their group: Amrita students and faculty see Amrita points, and general-public users see public points. They do not see your identity documents, phone number or location.</li>
-  <li><strong>Exports are controlled.</strong> Users cannot download data on their own. An administrator must approve each request for a time window, and users can export only their own group's points.</li>
-  <li><strong>Authorities and researchers:</strong> aggregated or de-identified infrastructure data may be shared with local authorities, partner institutions or researchers for civic and research purposes. Identity documents are never included.</li>
-  <li><strong>Legal reasons:</strong> we may disclose information where required by law, court order, or to protect safety.</li>
-</ul>
-<p>We do not sell personal data, and we do not share it for a purpose facilitating sale.</p>
-</section>
-
-<section id="thirdparty">
-<h2>8. Third-party services</h2>
-<p>The App uses these providers to work. Each handles data under its own privacy policy:</p>
-<ul>
-  <li><strong>Supabase</strong> hosts our database, real-time sync, authentication data and file storage.</li>
-  <li><strong>OpenStreetMap-based services</strong> (OSRM for routing, Nominatim for place search) receive the coordinates you ask them to route or search.</li>
-  <li><strong>Map tile providers</strong> receive the map area your device requests, along with your IP address, as with any map.</li>
-  <li><strong>Google Fonts</strong> delivers typefaces used in the interface.</li>
-  <li><strong>An SMS/email delivery provider</strong> used by our server to send notifications (section 9).</li>
-</ul>
-<p>These providers act on our behalf and are not permitted to use your data for their own marketing.</p>
+<section id="location">
+<h2>9. Location in detail</h2>
+<ol>
+  <li><strong>While the App is open</strong> your device location is read to centre the map, show "My position", calculate routes, find nearby shelters and campuses, fetch local weather, and stamp coordinates on points you save. A point's coordinates are frozen at the moment you open the log screen.</li>
+  <li><strong>Location Sharing (optional).</strong> If you switch on Location Sharing in "My Location", your latest position (latitude, longitude, accuracy, time) is saved as your single current-location record, and a new entry is added to your location history whenever you move a meaningful distance or enough time passes. Administrators see this on the User Locations panel. You can turn it off at any time. When you turn it off, we stop collecting and update your record to show sharing is disabled.</li>
+  <li><strong>Location history</strong> can be viewed by administrators by range (today, 7 days, 30 days or custom) and can be shown as a route on the map.</li>
+  <li><strong>No background tracking.</strong> The App does not collect your location when it is closed.</li>
+</ol>
 </section>
 
 <section id="sms">
-<h2>9. SMS and email notifications</h2>
-<p>You may receive notifications such as an account-approval message at the phone number or email you gave us, and administrators may be notified of new registrations. These messages are sent <strong>from our server</strong> through a delivery service. The App on your phone does not send SMS and does not read your messages.</p>
+<h2>10. SMS and email</h2>
+<p>GeoRoots sends the following automated messages:</p>
+<ul>
+  <li>Registration received and registration approved messages, to the number you registered with</li>
+  <li>A confirmation when you save a point, containing the category, the coordinates and a point ID, sent to the phone number saved with your point</li>
+  <li>New-registration and approval alerts to administrators and to a faculty member, who can switch these on or off</li>
+</ul>
+<p><strong>How they are sent.</strong> The App does not send text messages from your phone. When a message is triggered, a row containing the destination phone number and the message text is placed in a queue on our server. A separate GeoRoots relay device, kept by the project team, reads the queue and sends the message using its own SIM. The queue entry is deleted after the message is picked up. Messages therefore pass through our server and the relay device, and then your mobile operator.</p>
+<p>Normal operator rules apply. If you do not want these messages, contact us (section 23).</p>
+</section>
+
+<section id="sharing">
+<h2>11. Who can see your information</h2>
+<ul>
+  <li><strong>Administrators</strong> can see registration details, identity documents, all survey points (with reporter phone and user ID), messages between administrators, shared locations and the audit log.</li>
+  <li><strong>Other users</strong> see survey points of their own group only. They see the point details, notes and photos. They do not see your identity documents, password or shared location.</li>
+  <li><strong>Exports are controlled.</strong> Non-administrators cannot download data on their own. An administrator approves each request for a date and time window, and users can export only their own group's points.</li>
+  <li><strong>Authorities and researchers.</strong> Aggregated or de-identified infrastructure data may be shared with local authorities, partner institutions or researchers for civic and research purposes. Identity documents and passwords are never included.</li>
+  <li><strong>Service providers</strong> in section 12, only as needed to run the App.</li>
+  <li><strong>Legal reasons.</strong> We may disclose information if required by law or court order, or to protect someone's safety.</li>
+</ul>
+<p>We do not sell personal data and do not share it for a purpose facilitating sale.</p>
+</section>
+
+<section id="thirdparty">
+<h2>12. Third-party services</h2>
+<p>These providers are used by the App. Each handles data under its own privacy terms.</p>
+<div class="tablewrap">
+<table>
+<tr><th>Provider</th><th>Used for</th><th>Data they receive</th></tr>
+<tr><td>Supabase</td><td>Database, real-time updates, file and image storage</td><td>All data described in this policy that is stored on our server</td></tr>
+<tr><td>Google Maps (JavaScript API)</td><td>Map features</td><td>Map requests, IP address, device information</td></tr>
+<tr><td>Google Fonts</td><td>Typefaces in the interface</td><td>IP address, browser information</td></tr>
+<tr><td>Esri ArcGIS (server.arcgisonline.com)</td><td>Satellite and hybrid map tiles</td><td>Map area requested, IP address</td></tr>
+<tr><td>CARTO (basemaps.cartocdn.com)</td><td>Dark and label map tiles</td><td>Map area requested, IP address</td></tr>
+<tr><td>OpenStreetMap (tiles and Nominatim)</td><td>Standard map tiles, place search, reverse geocoding</td><td>Map area, search text or coordinates, IP address</td></tr>
+<tr><td>OSRM (router.project-osrm.org)</td><td>Route and ETA calculation</td><td>Start and end coordinates, IP address</td></tr>
+<tr><td>Open-Meteo</td><td>Weather, air quality, river flood and sea wave forecasts</td><td>Coordinates of the selected location, IP address</td></tr>
+<tr><td>USGS Earthquake service</td><td>Recent earthquakes near a location</td><td>Coordinates of the selected location, IP address</td></tr>
+<tr><td>Mobile operator (via our relay device)</td><td>Delivering SMS notifications</td><td>Destination number and message text</td></tr>
+</table>
+</div>
+<p>The App also links to public websites such as IMD, NDMA Sachet, INCOIS, state disaster management authorities, Bhuvan, FSI and India-WRIS. When you open one of these links you leave GeoRoots, and that website's own policy applies. We do not send them your personal data.</p>
+<p>These providers act for the purposes above. We do not allow them to use data from the App for advertising.</p>
 </section>
 
 <section id="storage">
-<h2>10. Storage on your device</h2>
-<p>The App stores small amounts of data on your device (local storage and cache) to keep you signed in, remember your theme and display settings, and keep map data available when your connection is poor. You can clear this by signing out or clearing the App's data in Android Settings. We do not use cookies for advertising or cross-site tracking.</p>
+<h2>13. Storage on your device</h2>
+<div class="tablewrap">
+<table>
+<tr><th>What is stored</th><th>Purpose</th><th>How to clear</th></tr>
+<tr><td>Theme and high-contrast setting</td><td>Remember your display choice</td><td>Clear app data</td></tr>
+<tr><td>Last user ID or administrator ID</td><td>Pre-fill sign-in</td><td>Sign out or clear app data</td></tr>
+<tr><td>Remember-this-device token (90 days)</td><td>Keep you signed in</td><td>Sign out</td></tr>
+<tr><td>Offline map metadata and map tiles</td><td>Use maps without signal</td><td>Clear app data</td></tr>
+<tr><td>Offline queue of unsent points (local database)</td><td>Upload later when online</td><td>Cleared after upload, or by clearing app data</td></tr>
+<tr><td>Session flag for the welcome screen</td><td>Show welcome once per session</td><td>Closes with the session</td></tr>
+<tr><td>Supabase session data</td><td>Real-time connection</td><td>Sign out or clear app data</td></tr>
+</table>
+</div>
+<p>We do not use advertising cookies or cross-site tracking.</p>
 </section>
 
 <section id="retention">
-<h2>11. Retention and deletion</h2>
-<ul>
-  <li><strong>Account details</strong> are kept while your account is active, then deleted within a reasonable period after closure unless the law requires us to keep them.</li>
-  <li><strong>Identity documents</strong> are kept only as long as needed for verification and audit, and can be deleted earlier on request.</li>
-  <li><strong>Survey points</strong> form a shared dataset. If your account is deleted, your points may remain (without your personal profile) unless you ask for them to be removed.</li>
-  <li><strong>Shared location history</strong> is kept only as long as needed for coordination and can be removed on request.</li>
-</ul>
-<div class="note"><strong>How to delete your account and data:</strong> email <a href="mailto:geo.roots.amrita.credits@gmail.com?subject=Delete%20my%20GeoRoots%20account">geo.roots.amrita.credits@gmail.com</a> with the subject "Delete my GeoRoots account", from the email address or phone number linked to your account. We will confirm and complete the deletion within 30 days, and tell you if anything must be kept by law. Your logged survey points are handled as described above.</div>
+<h2>14. Retention and deletion</h2>
+<div class="tablewrap">
+<table>
+<tr><th>Data</th><th>How long we keep it</th></tr>
+<tr><td>Account details</td><td>While your account is active, and deleted within 30 days of a verified closure request, unless the law requires otherwise</td></tr>
+<tr><td>Aadhaar QR image, name and live photo</td><td>Rejected registrations: deleted within 30 days. Approved accounts: until you ask for deletion or your account closes</td></tr>
+<tr><td>Consent record and signature</td><td>For as long as your Amrita account exists, then as long as needed for institutional records</td></tr>
+<tr><td>Remember-this-device record</td><td>Up to 90 days, or until you sign out</td></tr>
+<tr><td>Survey points</td><td>They are part of a shared dataset and are kept for the survey and research. On account closure, the points may remain without your profile, or be removed on request</td></tr>
+<tr><td>Phone number saved with a point</td><td>Removed or masked on request</td></tr>
+<tr><td>Current shared location</td><td>Replaced each update. Marked off when you stop sharing</td></tr>
+<tr><td>Shared location history</td><td>Up to 90 days, then deleted. Earlier removal on request</td></tr>
+<tr><td>Chat messages</td><td>While the conversation exists, or until deleted</td></tr>
+<tr><td>Administrator audit log</td><td>Up to 12 months</td></tr>
+<tr><td>Outgoing SMS queue entries</td><td>Deleted once the relay device picks them up</td></tr>
+</table>
+</div>
+<div class="note"><strong>How to delete your account and data:</strong> email <a href="mailto:geo.roots.amrita.credits@gmail.com?subject=Delete%20my%20GeoRoots%20account">geo.roots.amrita.credits@gmail.com</a> with the subject "Delete my GeoRoots account", from the email address or phone number linked to your account. We will confirm your identity, then complete the deletion within 30 days and tell you if anything must be kept by law. You may also ask an administrator in the App.</div>
 </section>
 
 <section id="security">
-<h2>12. Security</h2>
+<h2>15. Security</h2>
 <ul>
-  <li>Data is sent over encrypted HTTPS connections.</li>
-  <li>Access to stored data is restricted by account type, and administrator access is limited to approved people.</li>
-  <li>Exports are locked by default and require administrator approval.</li>
-  <li>Registration is approval-based to limit misuse.</li>
+  <li>All connections to our server use encrypted HTTPS.</li>
+  <li>Passwords are stored only as salted PBKDF2-SHA256 hashes. The remember-this-device token is stored on our server only as a SHA-256 hash.</li>
+  <li>Registration is approval-based, and identity documents are displayed only on the administrator approval screen.</li>
+  <li>The database is protected by row-level security rules, and the two datasets (Amrita and public) are separated.</li>
+  <li>Exports are locked by default and require administrator approval for a time window.</li>
+  <li>Administrator actions are recorded in an audit log.</li>
+  <li>Photos on your device are not saved to your gallery unless you export them.</li>
 </ul>
-<p>No online system is completely secure. Please keep your password private and tell us straight away if you think your account has been misused. If a personal-data breach occurs that affects you, we will notify you and the relevant authority as required by law.</p>
+<p>No online system is completely secure, and we cannot guarantee absolute security. Please keep your password private and tell us straight away if you think your account was misused. If a personal-data breach affects you, we will notify you and the relevant authority as the law requires.</p>
 </section>
 
 <section id="transfer">
-<h2>13. Where data is stored</h2>
-<p>Data is stored with our hosting provider, Supabase, on servers that may be located outside India. By using the App you understand that your information may be processed in other countries, where we rely on the provider's security commitments and apply this policy to it.</p>
+<h2>16. Where data is stored</h2>
+<p>Data is stored with our hosting provider, Supabase, on servers that may be outside India. Map, weather and routing providers in section 12 are also located in other countries. By using the App you understand that your information may be processed outside India. We choose providers with recognised security practices.</p>
 </section>
 
 <section id="rights">
-<h2>14. Your rights</h2>
+<h2>17. Your rights</h2>
 <p>Under the Digital Personal Data Protection Act, 2023 and other applicable law, you may:</p>
 <ul>
-  <li>ask for a summary of the personal data we hold about you</li>
+  <li>ask for a summary of the personal data we hold about you and who it has been shared with</li>
   <li>ask us to correct or complete inaccurate data</li>
   <li>ask us to delete your data, or withdraw your consent at any time</li>
-  <li>turn location sharing off in the App, and revoke device permissions in Settings</li>
-  <li>nominate someone to exercise your rights on your behalf if you are unable to</li>
-  <li>make a grievance to us, and if unresolved, to the Data Protection Board of India</li>
+  <li>turn off location sharing in the App, and revoke device permissions in Settings</li>
+  <li>nominate another person to exercise your rights if you are unable to</li>
+  <li>make a grievance to us. If it is not resolved, you may complain to the Data Protection Board of India.</li>
 </ul>
-<p>Send requests to the contact in section 18. We aim to reply within 30 days. We may need to confirm your identity first.</p>
+<p>Send requests to the contact in section 23. We aim to reply within 30 days. We may need to confirm your identity first.</p>
 </section>
 
 <section id="consent">
-<h2>15. Consent</h2>
-<p>We process your information based on your consent, which you give when you create an account, and when you turn on optional features such as location sharing. Amrita students and faculty additionally sign a consent form during registration. You can withdraw consent at any time. Withdrawing it does not affect earlier processing, but we may then be unable to provide your account.</p>
+<h2>18. Consent</h2>
+<p>We process your information based on your consent. You give it when you create an account and tick the agreement, and again when you turn on optional features such as Location Sharing or grant a device permission. Amrita students and faculty also sign a separate consent form in the App, which we record with a version number. You can withdraw consent at any time. Withdrawing it does not affect earlier processing, but we may then be unable to keep your account.</p>
 </section>
 
 <section id="children">
-<h2>16. Children</h2>
-<p>GeoRoots is intended for adults aged 18 and over, and for students and faculty of higher-education institutions. We do not knowingly collect personal data from children under 18. If you believe a child has registered, tell us and we will delete the account.</p>
+<h2>19. Children</h2>
+<p>GeoRoots is for adults aged 18 and over, and for students and faculty of higher-education institutions. We do not knowingly collect personal data from children under 18. If you believe a child has registered, tell us and we will delete the account.</p>
+</section>
+
+<section id="disclaimer">
+<h2>20. Weather and hazard information</h2>
+<p>Weather, flood, wave, air-quality and earthquake information in the App comes from third parties and is shown for general awareness. It is not an official warning. In an emergency, follow instructions from IMD, NDMA, your state disaster management authority and local officials.</p>
+</section>
+
+<section id="playsafety">
+<h2>21. Summary for Google Play "Data safety"</h2>
+<div class="tablewrap">
+<table>
+<tr><th>Play category</th><th>Collected</th><th>Shared with third parties</th><th>Optional</th><th>Purpose</th></tr>
+<tr><td>Approximate and precise location</td><td class="y">Yes</td><td>Coordinates go to map, routing and weather providers</td><td>Sharing live location is optional</td><td>App functionality</td></tr>
+<tr><td>Name</td><td class="y">Yes</td><td class="n">No</td><td>No</td><td>Account, identity verification</td></tr>
+<tr><td>Email address</td><td class="y">Yes (Amrita users)</td><td class="n">No</td><td>No for Amrita users</td><td>Account, verification</td></tr>
+<tr><td>Phone number</td><td class="y">Yes</td><td class="n">No (SMS goes through our relay and the operator)</td><td>No</td><td>Account, notifications</td></tr>
+<tr><td>User IDs</td><td class="y">Yes</td><td class="n">No</td><td>No</td><td>Account</td></tr>
+<tr><td>Photos</td><td class="y">Yes</td><td class="n">No</td><td>Point photos optional</td><td>App functionality, verification</td></tr>
+<tr><td>Other personal info (Aadhaar QR image, signature)</td><td class="y">Yes</td><td class="n">No</td><td>No</td><td>Identity verification</td></tr>
+<tr><td>Messages</td><td class="y">Yes (administrator chat)</td><td class="n">No</td><td>Yes</td><td>App functionality</td></tr>
+<tr><td>Other user-generated content (notes, points)</td><td class="y">Yes</td><td class="n">No</td><td>No</td><td>App functionality</td></tr>
+<tr><td>Contacts, SMS, call logs, files, audio, health, financial</td><td class="n">No</td><td>—</td><td>—</td><td>—</td></tr>
+</table>
+</div>
+<p>Data is encrypted in transit. Users can request deletion as described in section 14.</p>
 </section>
 
 <section id="changes">
-<h2>17. Changes to this policy</h2>
-<p>We may update this policy when the App or the law changes. The "last updated" date at the top shows the current version. For important changes we will tell you in the App before they apply, and where the law requires it, we will ask for your consent again.</p>
+<h2>22. Changes to this policy</h2>
+<p>We may update this policy when the App or the law changes. The "last updated" date and version number at the top show the current version. For important changes we will tell you in the App before they apply and, where the law requires, ask for your consent again.</p>
 </section>
 
 <section id="contact">
-<h2>18. Contact and grievances</h2>
+<h2>23. Contact and grievances</h2>
 <p>
 <strong>GeoRoots Team</strong><br>
 Amrita Vishwa Vidyapeetham, Coimbatore, Tamil Nadu, India<br>
@@ -318,6 +465,7 @@ Email: <a href="mailto:geo.roots.amrita.credits@gmail.com">geo.roots.amrita.cred
 Phone: <a href="tel:+917200959382">+91 72009 59382</a>
 </p>
 <p><strong>Faculty guidance and grievance contact:</strong> Dr. Aravinth J., Vice HOD, Department of Electronics &amp; Communication Engineering, Amrita Vishwa Vidyapeetham, Coimbatore.</p>
+<p>This policy is governed by the laws of India.</p>
 </section>
 
 </main>
